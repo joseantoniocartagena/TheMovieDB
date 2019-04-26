@@ -1,0 +1,4 @@
+<app-loading *ngIf="loading"></app-loading>
+<button (click)="callMovies(true)" type="button" mdbBtn color="link" class="pretty-button">Popularity</button> |
+<button (click)="callMovies(false)" type="button" mdbBtn color="link" class="pretty-button">Top rated</button>
+<app-tarjetas [items]="nuevasPeliculas"></app-tarjetas>

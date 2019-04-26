@@ -1,0 +1,9 @@
+.pretty-button{
+    width: 100px;
+    height: 50px;
+    background: none;
+    border-color: black;
+    align-content: center;
+    vertical-align: -webkit-baseline-middle;
+    vertical-align: middle;
+}
